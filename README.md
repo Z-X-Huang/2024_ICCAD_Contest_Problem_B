@@ -7,14 +7,14 @@ In advanced semiconductor technology nodes, minimizing power and area is a key c
 This process is known as “multibit flip-flop banking.” However, banking can sometimes worsen timing for critical nets, potentially reducing overall optimization. To address this, “multibit flip-flop debanking”—splitting multibit flip-flops back into single-bit ones—is sometimes necessary.  
   
 This contest simulates banking and debanking decisions in virtual designs, requiring contestants to optimize timing, power, and area for each testcase.
-<img src="result/case1.jpg" width="500" height="325" />
+<img src="png/banking_debanking.png" width="500" height="325" />
 
 ---
 ### 2 Contest Objective
 In this contest, the input includes combinational gates and sequential flip-flops. Contestants must preserve the placement and connections of combinational gates, which cannot be moved or altered. Only flip-flops may be moved, banked, or debanked as needed.  
   
 The contestants need to develop a banking & debanking algorithm that banks or debanks flip-flops to optimize timing, power, and area while meeting cell density constraints and avoiding cell overlap.  
+  
 The cost metrics of calculating timing, power, and area for this contest is as follows:  
-$$
-\sum_{i \in \mathrm{FF}} \left( \alpha \cdot TNS(i) + \beta \cdot Power(i) + \gamma \cdot Area(i) \right) + \lambda \cdot D
-$$
+<img src="png/objective_function.png" width="500" height="325" />
+
