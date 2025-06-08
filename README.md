@@ -27,4 +27,9 @@ each bin in the design. D stands for the number of bins that violates the utiliz
 γ, and λ are weight for each cost.
 
 ---
-### 2 Contest Objective
+### 3 Constraints
+ - All instances must be placed within the die region.
+ - All instances must be without overlap and placed on-site of PlacementRows.
+ - A list of banking and debanking mapping needs to be provided.
+ - Nets connected to the flip-flops must remain functionally equivalent to the data input. The result should not leave any open or short net.
+
