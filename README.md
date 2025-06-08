@@ -33,3 +33,9 @@ each bin in the design. D stands for the number of bins that violates the utiliz
  - A list of banking and debanking mapping needs to be provided.
  - Nets connected to the flip-flops must remain functionally equivalent to the data input. The result should not leave any open or short net.
 
+---
+
+| Debanking | Baanking |
+|:---------------------------:|:---------------------------:|
+| <img src="png/debanking.png" width="500" height="325" />     | <img src="png/banking.png" width="500" height="325" />   |
+
