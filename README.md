@@ -8,7 +8,7 @@ This process is known as “multibit flip-flop banking.” However, banking can 
   
 This contest simulates banking and debanking decisions in virtual designs, requiring contestants to optimize timing, power, and area for each testcase.  
   
-<img src="png/banking_debanking.png" width="375" height="150" />
+<img src="png/banking_debanking.png" width="425" height="150" />
 
 ---
 ### 2 Contest Objective
