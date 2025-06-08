@@ -18,7 +18,7 @@ The contestants need to develop a banking & debanking algorithm that banks or de
   
 The cost metrics of calculating timing, power, and area for this contest is as follows:  
   
-<img src="png/objective_function.png" width="300" height="60" />  
+<img src="png/objective_function.png" width="400" height="60" />  
   
 Where i stands for every flip-flop instance in the design. TNS(i) stands for the total negative slack of the
 flip-flop. Power(i) stands for the power consumption of the flip-flop. Area(i) stands for the area cost of
