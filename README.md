@@ -18,5 +18,5 @@ The contestants need to develop a banking & debanking algorithm that banks or de
   
 The cost metrics of calculating timing, power, and area for this contest is as follows:  
   
-<img src="png/objective_function.png" width="250" height="50" />
+<img src="png/objective_function.png" width="300" height="60" />
 
